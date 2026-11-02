@@ -1,0 +1,42 @@
+# =============================================================================
+# Orbital time game - .gitignore
+# A line is a pattern; "#" starts a comment.
+# Leading "/"  : the pattern applies at the repository root only.
+# Trailing "/" : the pattern matches folders only.
+# Leading "!"  : re-include something an earlier pattern excluded.
+# =============================================================================
+
+# --- Personal folders: never published ---------------------------------------
+/notes/
+/past/
+
+# --- Personal day agendas and everything orbital.py writes next to them -------
+# (day files contain your real schedule; the program also writes .bak backups,
+#  .tmp files while saving, .npz sample caches and optional .png snapshots)
+/day_*.txt
+*.bak
+*.tmp
+*.npz
+/*.png
+
+# --- Sounds: keep the folder tree, ignore every audio/video file --------------
+# Git does not store empty folders, so each subfolder carries an empty
+# placeholder file named .gitkeep (see GITHUB_GUIDE.md, step 4).
+/sounds/**
+!/sounds/**/
+!/sounds/**/.gitkeep
+
+# --- Python --------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# --- Editors and operating system ----------------------------------------------
+.vscode/
+.idea/
+desktop.ini
+Thumbs.db
+.dropbox
+.dropbox.attr
