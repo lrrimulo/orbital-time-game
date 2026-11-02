@@ -1,0 +1,58 @@
+SAVED PARAMETERS
+END SAVED PARAMETERS
+
+DAY [8:00 - 20:00]
+SILENCE [10:30 - 13:00], [15:30 - 18:00]
+PROPHETS [8:00], [12:30], [15:30], [18:00], [19:45]
+
+
+JUNKY STATION Morning_walk [8:15 - 10:00]
+
+*Ed08:40 Shoes, water, sunscreen
+*Ed Walk 1 ===> SAPPHIRE + 1 MARTIAN
+*E Walk 2 and stretching ===> DIAMOND + 3 MARTIANS
+
+WHY
+* Movement first, screens later.
+
+REPORT
+"""
+Example report: the walk was shorter than planned.
+"""
+
+
+CONTAINER Study [10:00 - 13:00]
+
+*Ed Read one chapter
+*E Solve the chapter exercises ===> SAPPHIRE
+*E Write a one-page summary ===> DIAMOND
+
+WHY
+* Deep-work block inside the first communication silence.
+
+
+CONTAINER Project [13:00 - 16:30]
+
+*Ed Fix the open bug
+*E Write the test for it ===> SAPPHIRE + BALL
+*E Push to GitHub
+
+REMINDER Break [13:30 - 16:30], NORMAL [25,2], VOICE "Zira"
+* "Pilot, stand up and look out of the window for one minute."
+END REMINDER
+
+
+CONTAINER Admin [16:30 - 20:00]
+
+*E Answer messages
+*E Plan tomorrow ===> DIAMOND
+
+
+REMINDER Focus [9:00 - 20:00], NORMAL [10,1], VOICE "Zira"
+* "Pilot, are you doing the most important task now?"
+* "Pilot, check posture, light and sound."
+END REMINDER
+
+END DAY
+
+Everything after END DAY is ignored by the program.

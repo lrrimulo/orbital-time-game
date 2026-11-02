@@ -65,7 +65,7 @@ The derivations, including corrections to the first version of the notes, are in
 ## Installation
 
 ```powershell
-git clone https://github.com/<github-username>/orbital-time-game.git
+git clone https://github.com/11529922+lrrimulo@users.noreply.github.com/orbital-time-game.git
 cd orbital-time-game
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
@@ -163,5 +163,5 @@ To be chosen. Until a `LICENSE` file is added, all rights are reserved by the au
 
 ## Author
 
-Leandro Rímulo ([@<github-username>](https://github.com/<github-username>)).
+Leandro Rímulo ([@<github-username>](https://github.com/11529922+lrrimulo@users.noreply.github.com)).
 Code developed with AI assistance (Claude, Anthropic) and reviewed by the author.
