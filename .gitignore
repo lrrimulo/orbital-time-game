@@ -32,6 +32,9 @@ __pycache__/
 .venv/
 venv/
 .ipynb_checkpoints/
+.env
+.env.*
+!.env.example
 
 # --- Editors and operating system ----------------------------------------------
 .vscode/

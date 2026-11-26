@@ -1,7 +1,7 @@
 # Orbital time game
 
 A time-blocking game for one working day, told as orbital mechanics.
-The working day is the flight of a small vessel that leaves a home ship, orbits a planet and docks again at the end of the shift. The hours you want undisturbed ("communication silences") become the intervals in which the planet hides the vessel from the home ship. Python fits the two orbits to your schedule with Monte Carlo sampling (emcee), and you pick the solution you like on a slider.
+The working day is the flight of a small stealth vessel that leaves a bigger "home ship", orbits a planet and docks again at the end of the shift. The hours you want undisturbed ("communication silences") become the intervals in which the planet hides the vessel from the home ship. Python fits the two orbits to your schedule with Monte Carlo sampling (emcee), and you pick the solution you like on a slider.
 
 ![Day view of the example agenda](docs/example_day_view.png)
 

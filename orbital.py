@@ -1376,7 +1376,7 @@ def speak(text, voice, enabled):
           f"$v = $s.GetInstalledVoices() | ForEach-Object {{ $_.VoiceInfo.Name }} | "
           f"Where-Object {{ $_ -like '*{v}*' }} | Select-Object -First 1; "
           "if ($v) { $s.SelectVoice($v) }; "
-          f"$s.Speak('{t}')")
+          f"Start-Sleep -Milliseconds 1000; $s.Speak('{t}')")
     try:
         subprocess.Popen(["powershell", "-NoProfile", "-NonInteractive", "-Command", ps],
                          creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0))
